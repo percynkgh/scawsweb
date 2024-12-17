@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/styles/Contact Us.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <title>Contact Us</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="label"><strong>SCAWS</strong>
+   </div>
+
+   <nav class="navbar">
+    <ul class="header-right">
+        <li><a href="/html/homepage.html">Home</a></li>
+        <li><a href="/html/Services.html">Services</a></li>
+        <li><a href="/html/Gallary.html">Gallary</a></li>
+        <li><a href="/html/About.html">About</a></li>
+        <li><a href="/html/Contact Us.html">Contact Us</a></li>
+    </ul>
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</nav>
+    
+    
+</header>
+
+<div class="heading">
+  <h1>
+    Contact Us for a Service
+  </h1>
+</div>
+
+<center>
+  <form class="form" action="sendEmail.php" method="post">
+    <div class="Name">
+      <div class="First-name">
+        <p>First Name*</p>
+        <input name="first_name" placeholder="First Name" type="text" required>
+      </div>
+      <div class="Last-name">
+        <p>Last Name*</p>
+        <input name="last_name" placeholder="Last Name" type="text" required>
+      </div>
+    </div>
+  
+    <div class="email-and-tel">
+      <div class="email">
+        <p>Email*</p>
+        <input name="email" placeholder="Email" type="email" required>
+      </div>
+      <div class="telephone">
+        <p>Telephone*</p>
+        <input name="telephone"  placeholder="Telephone" type="tel" required>
+      </div>
+    </div>
+  
+    <div class="city-and-service">
+      <div class="city">
+        <p>City</p>
+        <input name="city" placeholder="City" type="text">
+      </div>
+      <div class="Service">
+        <p>Select a Service:</p>
+        <select name="service" required>
+          <option value="Residential & Commercial Painting">Residential & Commercial Painting</option>
+          <option value="Cleaning Services (Indoors & Outdoors)">Cleaning Services (Indoors & Outdoors)</option>
+          <option value="Home & Office Decoration">Home & Office Decoration</option>
+          <option value="Wall & Ceiling Design">Wall & Ceiling Design</option>
+          <option value="Skimming & Surface Preparation">Skimming & Surface Preparation</option>
+          <option value="Wallpaper Installation">Wallpaper Installation</option>
+        </select>
+      </div>
+    </div>
+  
+    <div class="submit-button"> 
+      <input type="submit" value="Submit" onclick="window.alert('Details have been sent')">
+    </div>
+  </form>
+  
+
+
+<div class="footer">
+
+
+  <div class="getInTouch">
+
+      <h1>
+          Get In Touch with SCAWS
+      </h1>
+
+      
+
+  </div>
+
+      <div class="contactInfo">
+          <h3 class="mail">
+              Mail:<a href="mailto:kongwiepercy9@gmail.com">kongwiepercy9@gmail.com </a>
+          </h3>
+
+          <p>
+
+              Tel:0550710451
+          </p>
+
+          <div class="socialIcons">
+              <a href="#" ><img src="/images/facebook-round-color-icon.svg"></a>
+
+              <a href="#"><img src="/images/1583143.webp"> </a>
+
+             <a href="#"> <img src="/images/whatsapp-color-icon.svg"></a>
+          </div>
+      </div>
+     
+      <p>
+        © 2024 by Stanley Company And Works Services. Powered and secured by 
+    </p>
+  </div>
+  
+<script src="/Script/navBar.js"></script>
+</body>
+</html>
